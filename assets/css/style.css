@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  --font-96: 96px;
+  --font-49: 49px;
+  --font-37_42: 37.42px;
+  --font-36: 36px;
+  --font-24: 24px;
+  --font-20: 20px;
+  --font-18: 18px;
+  --font-16: 16px;
+  /* colors */
+
+  --color-fff: #ffffff;
+  --color-8b35e2: #8b35e2;
+  --color-fff0_8: #ffffffbb;
+  --color-fff0_7: #ffffffa1;
+  --color-0b0016: #0b0016;
+  --color-00e396: #00e396;
+  --color-ff4560: #ff4560;
+  --color-00b2ff: #00b2ff;
+  --color-d0dd37: #d0dd37;
+  --color-e9a214: #e9a214;
+  --color-ff4560: #ff4560;
+  --color-255: rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+  background-image: linear-gradient(
+    98.99deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.04) 100.6%
+  );
+}
+
+/* ====== navbar ==== */
+.bg-hero-img {
+  margin: o auto;
+  /* background-position: center top; */
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+
+  height: 1095px;
+  background-image: url(../img/hero-section-background.png);
+}
+.Magick {
+  font-size: var(--font-37_42);
+  font-weight: 800;
+  color: var(--color-fff) !important;
+}
+.nav-link {
+  color: var(--color-fff) !important;
+}
+.nav-link:hover {
+  color: var(--color-fff0_7) !important;
+}
+.navbar-toggler {
+  border: 2px solid var(--color-fff0_7) !important;
+}
+.White-Paper-btn {
+  border: 2px solid var(--color-8b35e2);
+  font-weight: 600;
+  padding: 8px 22px !important;
+  border-radius: 55.5px;
+  background-color: var(--color-8b35e2);
+}
+.White-Paper-btn:hover {
+  transition: all 0.4s ease-in-out;
+  color: var(--color-8b35e2) !important;
+  background-color: var(--color-fff);
+}
+/*========   hero section   ====== */
+.main-heading {
+  font-weight: 700;
+  font-size: var(--font-96);
+  color: var(--color-fff);
+  line-height: 110%;
+}
+.Presale-Countdown {
+  color: var(--color-fff0_8);
+  font-size: var(--font-18);
+  font-weight: 500;
+}
+.Countdown {
+  color: var(--color-fff0_8);
+  font-size: var(--font-37_42);
+  font-weight: 600;
+}
+.launch-app {
+  color: var(--color-fff);
+  font-size: var(--font-20);
+  font-weight: 600;
+  border: 2px solid var(--color-8b35e2);
+  padding: 11px 30px;
+  background-color: var(--color-8b35e2);
+  border-radius: 55.5px;
+}
+.launch-app:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: var(--color-fff);
+  color: var(--color-8b35e2);
+}
+.buy-token {
+  color: var(--color-fff);
+  font-size: var(--font-20);
+  font-weight: 600;
+  border: 2px solid var(--color-fff);
+  padding: 11px 30px;
+  background-color: transparent;
+  border-radius: 55.5px;
+}
+.buy-token:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: var(--color-fff);
+  color: var(--color-8b35e2);
+  border: 2px solid var(--color-8b35e2);
+}
+/* ====== What is MAGICK? ==== */
+
+.mani-bg-color {
+  margin-top: -1px;
+  background-color: var(--color-0b0016);
+}
+.head {
+  font-weight: 700;
+  font-size: var(--font-49);
+  color: var(--color-fff);
+}
+.para {
+  font-size: var(--font-18);
+  color: var(--color-fff);
+}
+.small-head {
+  font-weight: 600;
+  font-size: var(--font-24);
+  color: var(--color-fff);
+}
+.buy-token-2 {
+  color: var(--color-fff);
+  font-size: var(--font-16);
+  font-weight: 600;
+  border: 2px solid var(--color-8b35e2);
+  padding: 11px 36px;
+  background-color: var(--color-8b35e2);
+  border-radius: 55.5px;
+}
+/* ====== Token Information ==== */
+.cards {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+.card-para {
+  font-size: var(--font-18);
+  color: var(--color-fff0_7);
+}
+.card-no {
+  font-size: var(--font-36);
+  color: var(--color-fff0_7);
+  font-weight: 600;
+}
+/* ====== table ==== */
+
+/* ====== How Does MAGICK Work? ==== */
+
+/* ====== MAGICK tax features ==== */
+
+/* ====== last cards ==== */
+
+/* ====== footer ==== */
+
+/* ====== bottom ==== */
+
+#container {
+  width: 100%;
+  height: 16em;
+}
+@media (max-width: 575.99px) {
+  :root {
+    --font-96: 36px;
+    --font-49: 30px;
+    --font-37_42: 25px;
+    --font-36: 22px;
+    --font-24: 16px;
+    --font-20: 14px;
+    --font-18: 12px;
+    --font-16: 10px;
+  }
+  .bg-hero-img {
+    background-position: center top;
+    background-size: auto;
+    height: auto;
+  }
+  .buy-token {
+    padding: 8px 22px;
+  }
+  .launch-app {
+    padding: 8px 22px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    --font-96: 56px;
+    --font-49: 36px;
+    --font-37_42: 32px;
+    --font-36: 28px;
+    --font-24: 19px;
+    --font-20: 17px;
+    --font-18: 15px;
+    --font-16: 13px;
+  }
+  .bg-hero-img {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%;
+    height: 952px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --font-96: 60px;
+    --font-49: 40px;
+    --font-37_42: 35px;
+    --font-36: 32px;
+    --font-24: 21px;
+    --font-20: 18px;
+    --font-18: 16px;
+    --font-16: 14px;
+  }
+  .bg-hero-img {
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    /* background-size: 100% 100%; */
+    height: 1018px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  :root {
+    --font-96: 66px;
+    --font-49: 45px;
+    --font-36: 34px;
+    --font-24: 22px;
+  }
+  .bg-hero-img {
+    background-repeat: no-repeat;
+    height: 650px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  :root {
+    --font-96: 76px;
+  }
+  .bg-hero-img {
+    background-repeat: no-repeat;
+    height: 738px;
+  }
+}
